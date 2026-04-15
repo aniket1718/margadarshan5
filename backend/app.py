@@ -9,7 +9,7 @@ CORS(app)
 
 # Use environment variables for security
 SUPABASE_URL = "https://dcyjbkczopjjahvipvsf.supabase.co"
-SUPABASE_KEY = "YOUR_SUPABASE_SERVICE_ROLE_OR_ANON_KEY"
+SUPABASE_KEY = "sb_publishable___95tfBGyoSp43L6DS_JWA_PAzS27Rx"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
